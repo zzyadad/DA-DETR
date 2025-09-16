@@ -9,51 +9,7 @@
 
 ## 📊 RSBD Dataset
 
-### 🚨 Dataset Availability Notice
-
-> **📋 Important**: The complete RSBD dataset and code will be **publicly released upon paper acceptance**. 
-> 
-> **🔗 Current Status**: Under review process  
-> **📅 Expected Release**: Upon journal publication  
-> **📧 Early Access**: Contact [10431240210@stu.qlu.edu.cn](mailto:10431240210@stu.qlu.edu.cn) for research collaboration
-
-### 🏗️ Dataset Construction Process
-
-Our **Remote Sensing Balanced Dataset (RSBD)** was constructed through a systematic and rigorous process:
-
-#### 🔍 **Phase 1: Data Collection**
-- **Source**: High-resolution satellite imagery from Google Earth
-- **Coverage**: Global geographic regions with diverse scenarios
-- **Resolution**: High-resolution imagery ensuring clear target visibility
-- **Selection Criteria**: Dense targets, small objects, multi-oriented, and multi-scale scenarios
-
-#### 📝 **Phase 2: Annotation Process**
-- **Standards**: ±2 pixel precision for bounding boxes
-- **Quality Control**: Three-tier validation system
-  - Primary annotators for initial labeling
-  - Secondary reviewers for accuracy verification  
-  - Senior experts for final quality assurance
-- **Occlusion Rule**: Targets >50% occluded are excluded
-- **Adjacent Targets**: Separation strategy for spacing <20% of target size
-
-#### ⚖️ **Phase 3: Balance Optimization**
-- **Strategy**: Multi-round iterative sampling (5 rounds)
-- **Initial Ratio**: 3.47:1 (highly imbalanced)
-- **Optimization Process**:
-  - Round 1: Enhanced insufficient categories (Harbor, Vehicle)
-  - Round 2: Reduced over-sampled categories (Ship, Basketball Court)
-  - Round 3: Geographic expansion (Bridge, Airplane)
-  - Round 4: Quality refinement (Storage Tank, Ground Track Field)
-  - Round 5: Final balance adjustment
-- **Final Achievement**: **1.63:1 ratio** (excellent balance)
-
-#### ✅ **Phase 4: Quality Validation**
-- **Expert Review**: Consensus mechanism for challenging samples
-- **Validation Metrics**: Boundary precision, category accuracy
-- **Final Approval**: Senior expert panel validation
-
 ### 📈 Dataset Statistics
-
 <div align="center">
 
 | **Dataset Metric** | **Value** | **Industry Comparison** |
@@ -63,7 +19,7 @@ Our **Remote Sensing Balanced Dataset (RSBD)** was constructed through a systema
 | **Categories** | 9 | Representative classes |
 | **Balance Ratio** | **1.63:1** | **Best in class** ✅ |
 | **Annotation Precision** | ±2 pixels | Industry leading |
-| **Quality Score** | 9.2/10 | Expert validated |
+| **Quality Score** | 9.2/10 | Expert validated 
 
 </div>
 
@@ -83,6 +39,7 @@ Our **Remote Sensing Balanced Dataset (RSBD)** was constructed through a systema
 | ⚓ **Harbor** | 209 | 9.8% | Port facilities and docks |
 | 🚗 **Vehicle** | 254 | 11.9% | Cars and trucks in various scenes |
 | **Total** | **2,128** | **100%** | **9 balanced categories** |
+![Uploading RSBD.png…]()
 
 </div>
 
