@@ -40,8 +40,6 @@
 | 🚗 **Vehicle** | 254 | 11.9% | Cars and trucks in various scenes |
 | **Total** | **2,128** | **100%** | **9 balanced categories** |
 
-![Uploading RSBD.png…]()
-
 </div>
 
 **🎯 Balance Achievement**: 
