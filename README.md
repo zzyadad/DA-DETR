@@ -41,6 +41,7 @@
 | **Total** | **2,128** | **100%** | **9 balanced categories** |
 
 ![](https://github.com/zzyadad/DA-DETR/blob/main/RSBD.png)
+![](https://github.com/zzyadad/DA-DETR/blob/main/buchong.png)
 </div>
 
 **🎯 Balance Achievement**: 
