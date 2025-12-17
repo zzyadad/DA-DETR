@@ -15,7 +15,7 @@
 | **Dataset Metric** | **Value** | **Industry Comparison** |
 |-------------------|-----------|-------------------------|
 | **Total Images** | 816 | Moderate size, high quality |
-| **Total Instances** | 2,137 | Balanced distribution |
+| **Total Instances** | 2,128 | Balanced distribution |
 | **Categories** | 9 | Representative classes |
 | **Balance Ratio** | **1.63:1** | **Best in class** ✅ |
 | **Annotation Precision** | ±2 pixels | Industry leading |
